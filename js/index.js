@@ -9,3 +9,10 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 new WOW().init();
+
+jQuery(document).ready(function() {
+    jQuery('.post').addClass("hid").viewportChecker({
+        classToAdd: 'vis animated fadeIn delay-2s',
+        offset: 100
+       });
+});

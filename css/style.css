@@ -55,6 +55,7 @@ ul.menu > li {
 .menu a{
   text-decoration: none;
   color:black;
+  font-size: 14px;
   z-index: 1;
   display:block; 
   padding: 10px 15px;
@@ -110,8 +111,6 @@ ul.social > li {
     padding: 10px;
 }
 
-
-
 .content{
     margin-top: 30px;
 }
@@ -155,7 +154,7 @@ ul.social > li {
 
 .blocks{
     position:absolute;
-    margin-top:50px;
+    margin-top:10px;
 }
 
 .blocks > div:hover {
@@ -171,7 +170,7 @@ ul.social > li {
 .blocks > div {
     position: relative;
     margin:auto;
-    width: 80%;
+    width: 90%;
     display: block;
     border: 1px solid black;
     border-color: #50af975d;
@@ -182,4 +181,11 @@ ul.social > li {
     color:#50af97;
     font-weight: 500;
     margin-left: 10px;
+}
+
+.hid{
+    opacity:0;
+}
+.vis{
+    opacity:1;
 }
