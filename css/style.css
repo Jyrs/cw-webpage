@@ -194,9 +194,16 @@ margin-top: 60px;
 }
 
 
-.s_services
-{
-    margin-left:50px;
+.services{
+    margin-top: 75px;
+}
+
+.services h5 {
+    vertical-align: middle;
+}
+
+.services  p {
+    vertical-align: middle;
 }
 
 .hid{
