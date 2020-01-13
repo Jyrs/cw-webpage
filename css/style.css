@@ -155,6 +155,7 @@ ul.social > li {
 .blocks{
     position:absolute;
     margin-top:10px;
+    cursor: pointer;
 }
 
 .blocks > div:hover {
@@ -198,13 +199,24 @@ margin-top: 60px;
     margin-top: 75px;
 }
 
-.services h5 {
-    vertical-align: middle;
+
+.services-text {
+    margin-top: 25px;
 }
 
-.services  p {
-    vertical-align: middle;
+.services-supp{
+    width: 350px;
+    height: 230px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
 }
+
+.services-supp img{
+    display:block;
+    margin: auto;
+}
+
 
 .hid{
     opacity:0;

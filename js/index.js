@@ -12,7 +12,12 @@ new WOW().init();
 
 jQuery(document).ready(function() {
     jQuery('.post').addClass("hid").viewportChecker({
-        classToAdd: 'vis animated fadeIn delay-4s',
-        offset: 150
+        classToAdd: 'vis animated fadeInLeft delay-4s',
+        offset: 130
        });
+
+    jQuery('.services-supp').addClass("hid").viewportChecker({
+        classToAdd: 'vis animated bounceInUp delay-1s',
+        offset: 100
+        });
 });
