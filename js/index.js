@@ -14,17 +14,17 @@ jQuery(document).ready(function() {
 
     jQuery('.post').addClass("hid").viewportChecker({
         classToAdd: 'vis animated fadeInLeft delay-4s',
-        offset: 140
+        offset: 150
        });
 
     jQuery('.services-supp').addClass("hid").viewportChecker({
-        classToAdd: 'vis animated bounceInUp delay-1s',
-        offset: 130
+        classToAdd: 'vis animated bounceInUp delay-2s',
+        offset: 150
         });
 
     jQuery('.partners').addClass("hid").viewportChecker({
-        classToAdd: 'vis animated fadeIn delay-4s',
-        offset: 100
+        classToAdd: 'vis animated fadeIn delay-7s',
+        offset: 120
         });
 
     
