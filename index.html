@@ -19,6 +19,7 @@
 <body>
     <header>
         <div class="container top-bar"> 
+
             <div class="row">
                 <div class="col-md-2">
                         <img style="cursor: pointer;" src="img/logo.png"  width="128px" height="128px">
@@ -29,10 +30,11 @@
                         <ul class="social">
                             <li><a class="icon" href="#"><i class="fab fa-vk"></i></a></li>
                             <li><a class="icon" href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a class="icon" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="icon" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a class="icon" href="#"><i class="fab fa-telegram"></i></a></li>
+                            <li><a class="icon" href="https://github.com/Jyrs"><i class="fab fa-github"></i></a></li>
                         </ul>
                     </nav>
+
                     <nav>
                         <ul class="menu">
 
@@ -43,26 +45,34 @@
                                 <ul class="sub-menu">
                                     <li><a href="#">DRIVERS</a></li>
                                     <li><a href="#">DOCUMENTATION</a></li>
-                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">KNOWLEDGE BASE</a></li>
                                     <li><a href="#">FORUM</a></li>
                                 </ul>  
                             </li>
                             <li><a href="#">BLOG</i></a></li>
                             <li><a href="#">PARTNERS</a></li>
-
+                            <li><i class="fas fa-search search-icon"></i></li>
                         </ul>
                     </nav>
-                
                 </div>
+                
             </div>
         </div>
     </header>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12">  
+
+                <div class="search-block">
+                    <form name="searchForm">
+                        <input class="search-input" name="search" type="text">
+                    </form>
+                </div>          
                 <hr width="100%">
+
             </div>
+
         </div>
 
         <section class="row">
@@ -208,12 +218,77 @@
 
         <div class="row">
             <div class="col-md-12">
-                <img src="img/amd-logo.png" width="15%" height="87%">
-
+                <hr width="100%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 partners">
+                    <img src="img/amd-logo.png" width="13%" height="85%">
+                    <img src="img/cis-logo.jpg" width="10%" height="100%">
+                    <img src="img/king-logo.jpg" width="15%" height="70%">
+                    <img src="img/mer-logo.png" width="15%" height="70%">
+                    <img src="img/tele-logo.png" width="11%" height="60%">
             </div>
         </div>
 
+       
+
+
     </div>
+
+
+
+        <footer>
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <nav>
+                                <h2>Navigation:</h2>
+                                <ul class="footer-menu">
+                                    <li><a href="#">HOME</a></li>
+                                    <li><a href="#">ABOUT</a></li>
+                                    <li><a href="#">PRODUCTS</a></li> 
+                                    <li><a href="#">DRIVERS & SUPPORT</a></li>
+                                    <li><a href="#">BLOG</i></a></li>
+                                    <li><a href="#">PARTNERS</a></li>
+                                </ul>
+                            </nav>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <address>
+                                <h2>Contacts:</h2>
+                                <p>Email: <a href="#">email@email.com</a><br>
+                                Number: 000-00-00</p>
+
+                                <h2 style="margin-top:0px;">Address:</h2>
+                                <p>Unit C2, St.Vincent's Trading Est.,<br>
+                                    Feeder Road,<br>
+                                    Bristol, BS2 0UY<br>
+                                    United Kingdom</p>
+
+                            </address>
+                            
+                            
+                        </div>
+                        <div class="col-md-5">
+                            
+                            
+                                <h2 >Форма обратной связи.</h2>
+                                <form name="MessageForm">
+                                    <input class="input" name="name" placeholder="Name"/><br/>
+                                    <input class="input" name="email" placeholder="Email"  type="text"/><br/>
+                                    <textarea name="body" cols="1" rows="4"  placeholder="Message"></textarea></p>
+                                    <input id="submit" value="Отправить" type="submit" style="height: 30px;"/>
+                                </form>
+
+                        </div>
+                    </div>  
+                </div>
+                <p style="margin: 15px; margin-bottom: 0px;"> © Company 2020. All Rights Reserved</p>
+            </div>  
+        </footer>
 
 
     <script defer src="js/vendors/wow.min.js"></script>
@@ -221,7 +296,6 @@
     <script defer src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script defer src="js/vendors/jquery-3.4.1.min.js"></script>
     <script defer src="js/vendors/jquery.viewportchecker.min.js"></script>
-
     <script defer src="js/index.js"></script>
 
     
